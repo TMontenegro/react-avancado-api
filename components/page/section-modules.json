@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_landing_page_section_modules",
+  "info": {
+    "name": "sectionModules",
+    "icon": "angle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "modules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.modules",
+      "min": 2,
+      "required": true
+    }
+  }
+}
